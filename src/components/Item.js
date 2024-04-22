@@ -6,7 +6,7 @@ function Item({ name, category }) {
   function handleAddToCartClick() {
     setIsInCart((isInCart) => !isInCart);
   }
-
+//showing the exact thing here
   return (
     <li className={isInCart ? "in-cart" : ""}>
       <span>{name}</span>
